@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" font-family="Arial,sans-serif">
+<rect x="20" y="20" width="360" height="260" fill="#f6f3ee"/>
+<rect x="20" y="20" width="150" height="140" fill="#efe6d8"/>
+<rect x="170" y="20" width="100" height="140" fill="#eef1ea"/>
+<rect x="270" y="20" width="110" height="140" fill="#eef1ea"/>
+<rect x="20" y="180" width="100" height="100" fill="#eef1ea"/>
+<rect x="120" y="180" width="100" height="100" fill="#eef1ea"/>
+<rect x="300" y="180" width="80" height="100" fill="#e8eef1"/>
+<rect x="20" y="20" width="360" height="260" fill="none" stroke="#2a2a2a" stroke-width="7"/>
+<line x1="170" y1="20" x2="170" y2="110" stroke="#2a2a2a" stroke-width="4"/>
+<line x1="270" y1="20" x2="270" y2="160" stroke="#2a2a2a" stroke-width="4"/>
+<line x1="20" y1="160" x2="130" y2="160" stroke="#2a2a2a" stroke-width="4"/>
+<line x1="160" y1="160" x2="380" y2="160" stroke="#2a2a2a" stroke-width="4"/>
+<line x1="120" y1="180" x2="120" y2="280" stroke="#2a2a2a" stroke-width="4"/>
+<line x1="220" y1="180" x2="220" y2="280" stroke="#2a2a2a" stroke-width="4"/>
+<line x1="20" y1="180" x2="220" y2="180" stroke="#2a2a2a" stroke-width="4"/>
+<line x1="300" y1="180" x2="300" y2="280" stroke="#2a2a2a" stroke-width="4"/>
+<line x1="70" y1="20" x2="120" y2="20" stroke="#9cc3d9" stroke-width="5"/>
+<line x1="170" y1="20" x2="220" y2="20" stroke="#9cc3d9" stroke-width="5"/>
+<line x1="270" y1="20" x2="320" y2="20" stroke="#9cc3d9" stroke-width="5"/>
+<text x="95" y="95" font-size="13" fill="#555" text-anchor="middle">Кухня-гостиная</text>
+<text x="220" y="95" font-size="13" fill="#555" text-anchor="middle">Спальня</text>
+<text x="325" y="95" font-size="13" fill="#555" text-anchor="middle">Детская</text>
+<text x="70" y="235" font-size="13" fill="#555" text-anchor="middle">Детская</text>
+<text x="170" y="235" font-size="13" fill="#555" text-anchor="middle">Кабинет</text>
+<text x="340" y="235" font-size="13" fill="#555" text-anchor="middle">С/у</text>
+</svg>

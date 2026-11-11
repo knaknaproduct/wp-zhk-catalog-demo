@@ -1,0 +1,22 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"landingPage": "/",
+	"preferredVersions": { "php": "8.3", "wp": "latest" },
+	"features": { "networking": true },
+	"steps": [
+		{ "step": "login", "username": "admin", "password": "password" },
+		{ "step": "setSiteLanguage", "language": "ru_RU" },
+		{ "step": "setSiteOptions", "options": { "blogname": "Демо-квартал", "blogdescription": "Каталог квартир на WordPress", "timezone_string": "Europe/Moscow", "date_format": "j F Y" } },
+		{
+			"step": "installPlugin",
+			"pluginData": { "resource": "git:directory", "url": "https://github.com/knaknaproduct/wp-zhk-catalog-demo", "ref": "main", "refType": "branch", "path": "plugin/zhk-catalog" },
+			"options": { "activate": true, "targetFolderName": "zhk-catalog" }
+		},
+		{
+			"step": "installTheme",
+			"themeData": { "resource": "git:directory", "url": "https://github.com/knaknaproduct/wp-zhk-catalog-demo", "ref": "main", "refType": "branch", "path": "theme/zhk-theme" },
+			"options": { "activate": true, "targetFolderName": "zhk-theme" }
+		},
+		{ "step": "runPHP", "code": "<?php require '/wordpress/wp-load.php'; zhk_seed_demo();" }
+	]
+}
